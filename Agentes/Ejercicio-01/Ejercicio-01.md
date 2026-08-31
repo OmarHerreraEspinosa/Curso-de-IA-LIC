@@ -10,13 +10,13 @@
   El agente funciona mejor cuando los pits están cerca porque los detecta rápido y los esquiva. Si los pits están lejos tiene más espacio para moverse, pero igual termina topándose con el Wumpus, cuando siente el stench y no encuentra otra ruta se queda trabado sin poder avanzar hacia el oro.
   
 # Evidencias de haber corrido los 4 agentes con la nueva configuración del mundo.
-- 02_simple_reflex_agent.py
+# 02_simple_reflex_agent.py
 ![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Ejercicio-01/02_simple_reflex_agent.png)
-- 03_model_based_agent.py
+# 03_model_based_agent.py
 ![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Ejercicio-01/03_model_based_agent.png)
-- 04_goal_based_agent.py
+# 04_goal_based_agent.py
 ![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Ejercicio-01/04_goal_based_agent.png)
-- 05_utility_based_agent.py
+# 05_utility_based_agent.py
 ![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Ejercicio-01/05_utility_based_agent.png)
-- 06_learning_agent.py
+# 06_learning_agent.py
 ![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Ejercicio-01/06_learning_agent.png)
