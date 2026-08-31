@@ -11,8 +11,12 @@
   
 # Evidencias de haber corrido los 4 agentes con la nueva configuración del mundo.
 - 02_simple_reflex_agent.py
+![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Ejercicio-01/02_simple_reflex_agent.png)
 - 03_model_based_agent.py
+![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Ejercicio-01/03_model_based_agent.png)
 - 04_goal_based_agent.py
+![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Ejercicio-01/04_goal_based_agent.png)
 - 05_utility_based_agent.py
-- 06_learning_agent.py 
-
+![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Ejercicio-01/05_utility_based_agent.png)
+- 06_learning_agent.py
+![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Ejercicio-01/06_learning_agent.png)
