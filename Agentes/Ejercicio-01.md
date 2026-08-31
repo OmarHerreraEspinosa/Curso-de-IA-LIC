@@ -7,7 +7,7 @@
 - ¿Por qué el agente de reflejo simple falla (o tiene suerte) en tu diseño?
   Falla porque no tiene memoria ni planificación. No sabe como reaccionar ni interpretar lo que está percibiendo, por eso al percibir el stench se queda dando vueltas hasta acabarse los 200 pasos, ya que no tiene una ruta trazada hacia el oro.
 - ¿Cómo cambia el resultado del agente basado en modelo si acercas o alejas un pit de la casilla inicial?
-  El agente funciona mejor cuando los pits están cerca porque los detecta rápido y los esquiva. Si los pits están lejos tiene más espacio para moverse, pero igual termina topándose con el Wumpus. Al sentir el stench y no encontrar otra ruta se queda trabado sin poder avanzar hacia el oro.
+  El agente funciona mejor cuando los pits están cerca porque los detecta rápido y los esquiva. Si los pits están lejos tiene más espacio para moverse, pero igual termina topándose con el Wumpus, cuando siente el stench y no encuentra otra ruta se queda trabado sin poder avanzar hacia el oro.
   
 # Evidencias de haber corrido los 4 agentes con la nueva configuración del mundo.
 - 02_simple_reflex_agent.py
