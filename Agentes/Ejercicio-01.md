@@ -1,5 +1,5 @@
 # Diagrama de la cueva, indicando agente, Wumpus, pits y oro.
-![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Mi%20Cueva%204x4.webp)
+![](https://github.com/OmarHerreraEspinosa/Curso-de-IA-LIC/blob/main/Agentes/Mi%20Cueva%204x4.webp)
 
 # Breve reporte.
 - ¿Qué agentes lograron salir con el oro en tu mapa y cuáles no?
