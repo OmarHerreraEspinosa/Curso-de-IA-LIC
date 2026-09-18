@@ -3,10 +3,10 @@
 
 ### 1. Asistente virtual de voz
 
-- **Performance:** ...
-- **Environment:** ...
-- **Actuators:** ...
-- **Sensors:** ...
+- **Performance:** ... Precisión al reconocer las solicitudes, rapidez de respuesta, veracidad de la información que brinda y satisfacción del usuario.
+- **Environment:** ... Espacio donde se encuentra el usuario, con personas, dispositivos inteligentes. Es parcialmente observable, estocástico, secuencial, dinámico y continuo.
+- **Actuators:** ... Investigar en la web, reproducir música, configurar alarmas, realizar llamadas y controlar dispositivos inteligentes.
+- **Sensors:** ... Micrófono, reconocimiento de voz, historial de conversaciones, dispositivos conectados y datos de internet.
 
 ### 2. Robot aspirador doméstico
 
