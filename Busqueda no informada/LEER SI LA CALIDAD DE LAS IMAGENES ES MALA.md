@@ -1,1 +1,0 @@
-# Subí el ejercicio 01 de dos maneras, ya que, por alguna razón al guardar el Word como PDF, mi PC le baja muchísimo la calidad a las imágenes. Para evitar problemas con la entrega decidí subirlo de ambas maneras. :)
