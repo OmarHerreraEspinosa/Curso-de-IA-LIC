@@ -13,11 +13,11 @@ En lugar de mejorar la precisión o bajar más rápido el error, agregar dos cap
 
 ## 2. Comparación entre la red base de NumPy y la de Keras
 
-Las dos redes terminan bajando el error, pero las gráficas no son iguales por cómo están programadas por dentro:
+Aunque las dos redes logran reducir el error conforme pasan las épocas, las gráficas muestran formas diferentes debido a cómo está implementado cada código por dentro. En primer lugar, la manera de inicializar los pesos cambia bastante: en NumPy los pesos se generan de forma aleatoria simple con `np.random.rand - 0.5`, mientras que Keras utiliza por defecto la inicialización de Glorot/Xavier, la cual escala mucho mejor los valores iniciales para evitar que la red empiece tan a ciegas. 
 
-1. **Cómo inician los pesos:** En NumPy los pesos se inicializaron de forma aleatoria simple con `np.random.rand - 0.5`. Keras usa por defecto la inicialización de Glorot/Xavier, que ajusta mejor los valores iniciales para que la red no empiece tan a ciegas.
-2. **El manejo de los datos:** En NumPy el entrenamiento va muestra por muestra (uno por uno en el orden en que viene el dataset). Keras junta los datos en pequeños grupos (batches de 32), lo que hace que la gráfica de pérdida sea mucho más suave y recta desde el inicio.
-3. **Punto de partida:** Por estas mismas diferencias, la curva de NumPy empieza con un error más alto (casi 0.75) y cae rápido al principio, mientras que en Keras empieza más abajo (0.23) y baja de forma lineal.
+Por otro lado, la forma de procesar los datos durante el entrenamiento no es la misma. En el script de NumPy el aprendizaje se hace muestra por muestra en el orden exacto en que vienen los datos en el conjunto Iris, mientras que en Keras el optimizador agrupa la información en mini-batches (de 32 muestras por defecto), lo que ayuda a que el descenso de gradiente sea más estable y la gráfica de pérdida se vea mucho más suave desde las primeras épocas. 
+
+Debido a estas diferencias de fondo, la curva de NumPy arranca con un error inicial considerablemente más alto (casi 0.75) y tiene una caída bastante marcada durante las primeras 100 épocas antes de aplanarse, mientras que en Keras la pérdida comienza desde un valor menor (~0.23) y va disminuyendo de forma casi lineal y constante durante todo el entrenamiento.
 
 ---
 
