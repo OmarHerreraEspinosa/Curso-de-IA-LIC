@@ -13,4 +13,4 @@ Ambas bajan el error, pero sus curvas son distintas por la implementación de ca
 ---
 
 ## 3. ¿Por qué la red profunda no funcionó en Iris?
-Hacer la red más grande no sirvió por dos razones. Primero, por el desvanecimiento del gradiente: como la derivada de la sigmoide es pequeña ($\le 0.25$), al multiplicar tantas capas en el backpropagation el gradiente que llega a la primera capa es casi cero y sus pesos no cambian. Segundo, porque Iris es un dataset pequeño (150 datos) y sencillo; no requiere tantas capas, por lo que agregar sigmoides y MSE solo saturó la red y la dejó estancada.
+Hacer la red más grande no sirvió por dos razones. Primero, por el desvanecimiento del gradiente: como la derivada de la sigmoide es pequeña (=< 0.25), al multiplicar tantas capas en el backpropagation el gradiente que llega a la primera capa es casi cero y sus pesos no cambian. Segundo, porque Iris es un dataset pequeño (150 datos) y sencillo; no requiere tantas capas, por lo que agregar sigmoides y MSE solo saturó la red y la dejó estancada.
