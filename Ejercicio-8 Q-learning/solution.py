@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Implementa Q-learning tabular para el problema del acantilado de 4 × 12."""
-
 from __future__ import annotations
 
 import csv
